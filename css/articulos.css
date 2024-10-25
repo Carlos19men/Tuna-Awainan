@@ -34,7 +34,10 @@ body{
 
 .menu{
     margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
 }
+
 .texto{
     gap: .5%;
     display: grid;
@@ -86,5 +89,7 @@ body{
 .imagen img{
     height: 100%;
     width: 100%;
+    overflow: hidden;
+
  
 }
