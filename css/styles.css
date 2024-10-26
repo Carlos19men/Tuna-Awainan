@@ -11,7 +11,8 @@ body{
 
 header{
 
-    margin-top: 20%;
+    overflow: hidden;
+    background-color: #f6f7f8;
 
 }
 
@@ -26,13 +27,7 @@ header{
 
 .container{
 
-    font-size: large;
-
-}
-
-li{
-
-    width: 100px;
+    font-size: x-large;
 
 }
 
@@ -44,9 +39,6 @@ li a{
     font-weight: 600;
     text-transform: uppercase;
     transition: 0.3s ease-out;
-    width: 110px;
-    
-    
 
 }
 
@@ -59,21 +51,64 @@ li:hover a{
 
 .section1{
 
-    position: absolute;
+
     font-family: "Chau Philomene One", sans-serif;
     background-color: #0cc0df;
-    margin-left: 6%;
-    width: 40%;
-    top: 0px;
+    
+
 
 }
 
-.section1 p{
+.section1 .sec-title{
 
-    margin-left: 15%;
-    width: 70%;
-    margin-top: 35%;
-    padding-bottom: 50%;
+    color: white;
     text-align: center;
 
+}
+
+
+.section1 .sub-title{
+
+
+    color: white;
+    text-align: center;
+
+}
+
+.center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.boton{
+
+    background-color: #0097b2;
+    padding: 0.7rem;
+    color: white;
+    transition: 0.3s ease-out;
+
+
+}
+
+.boton:hover{
+
+    background-color: #045a69;
+
+}
+
+.animated-circle {
+
+  border-radius: 50%;
+  background-color: #3498db;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
 }
