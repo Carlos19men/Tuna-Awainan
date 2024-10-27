@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+
+
+
+.row{
+    background-color: white; /* Color de fondo de la tarjeta */
+    overflow: hidden; /* Ocultar contenido que se desborda */
+    width: 730px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra */
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+
+
+}
+
+.row-hidden{
+
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.row-appearance{
+
+    opacity: 1;
+    visibility: visible ;
+}
+
+.row img{
+
+    width: 730px;
+    height: 140px;
+    object-fit: cover;
+
+}
+
+.row button{
+
+    text-transform: uppercase;
+    display: inline-block;
+    width: 900px;
+
+}
+
+.return{
+
+    transition: transform 250ms;
+
+}
+
+
+.row-move{
+
+    transition: transform 250ms;
+
+}
+
+
+
+.texto-escasez-agua{
+
+    margin-top: .5rem;
+    background-color:#847a4b;
+    color: white;
+    transition: 0.3s ease-out;
+
+}
+
+.texto-escasez-agua:hover{
+
+    color: #847a4b;
+    background-color: white;
+
+}
+
+.texto-calidad-agua{
+
+    margin-top: .5rem;
+    background-color:#85a65d;
+    color: white;
+    transition: 0.3s ease-out;
+
+}
+
+.texto-calidad-agua:hover{
+
+    color: #85a65d;
+    background-color: white;
+
+}
+
+.texto-turismo-agua{
+
+    margin-top: .5rem;
+    background-color:#97bdd4;
+    color: white;
+    transition: 0.3s ease-out;
+
+}
+
+.texto-turismo-agua:hover{
+
+    color: #97bdd4;
+    background-color: white;
+
+}
+
+.texto-pueblos-indigenas{
+
+    margin-top: .5rem;
+    background-color:#c68c5d;
+    color: white;
+    transition: 0.3s ease-out;
+
+}
+
+.texto-pueblos-indigenas:hover{
+
+    color: #c68c5d;
+    background-color: white;
+
+}
+
+.figure{
+
+    width: 1050px;
+
+
+}
+.figure img{
+
+
+    width: 1050px;
+    height: 1200px;
+    transform: rotateY(180deg);
+
+}
+
+.card-art{
+
+    display: none;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+
+}
+
+.card-art-show{
+
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-art-hidden{
+
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+
+.pfp{
+
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.user{
+
+
+    color: black;
+
+}
+
+.time{
+
+    
+    float: right;
+
+}
+
+.title-art{
+
+    text-transform: uppercase;
+
+}
+
+.container-art img{
+
+    float:right
+
+}
