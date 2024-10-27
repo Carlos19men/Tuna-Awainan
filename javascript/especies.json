@@ -1,0 +1,58 @@
+{
+    "localizaciones" : [
+        {
+
+            "localizacion" : "delta del orinoco",
+            "mapa":{
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94971.91902193749!2d-61.027824554078336!3d8.982624256633164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8db5402cd3c74725%3A0xd113fabf80256f43!2sOrinoco%20delta!5e0!3m2!1ses!2sve!4v1730056905117!5m2!1ses!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>},
+            "especies" :[
+                {
+                "nombre comun":"dorado",
+                "nombre cientifico": "Brachyplatystoma rousseaxii; B. flavicans",
+                "info": "", 
+                "imagen":""
+            },
+            {
+                "nombre comun":"Lau lau o valentón",
+                "nombre cientifico": "Brachyplatystoma vaillanti",
+                "info": "",
+                "imagen":""
+            },
+            {
+                "nombre comun":"Blanco pobre",
+                "nombre cientifico": "Pinirampus pinirampu",
+                "info": "",
+                "imagen":""
+            }, 
+             {
+                "nombre comun":"Bagre tigre",
+                "nombre cientifico": "Platynematichthys notatus",
+                "info": "",
+                "imagen":""
+            }, 
+             {
+                "nombre comun":"Bagre rayao",
+                "nombre cientifico": "Pseudoplatystoma orinocoense, P. metaense",
+                "info":"",
+                "imagen":""
+            },
+              {
+                "nombre comun":"Bagre paisano",
+                "nombre cientifico": "Hypophthalmus edentatus, H. marginatus",
+                "info": "",
+                "imagen":""
+            }  
+            
+        
+        
+        ]
+        }
+    
+
+    ]
+
+
+
+
+
+}

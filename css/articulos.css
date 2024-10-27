@@ -64,16 +64,37 @@ body{
     background-color: #847a4b;
 }
 
+
+.escases a:hover{
+    background-color: white;
+    color: #847a4b;
+}
+
 .calidad a{
     background-color: #85a65d;
+}
+
+.calidad a:hover{
+    background-color: white;
+    color: #85a65d;
 }
 
 .turismo a{
     background-color: #97bdd4;
 }   
 
+.turismo a:hover{
+    background-color: white;
+    color: #97bdd4;
+}   
 .pueblos a{
     background-color: #c68c5d;
+}
+
+
+.pueblos a:hover{
+    background-color: white;
+    color: #c68c5d;
 }
 
 .texto div a{
