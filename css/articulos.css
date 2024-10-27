@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+
+body{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+
+.partes{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns:8.5% 41.5% 50%; 
+    grid-template-rows: 100%;
+    overflow: hidden;
+}
+
+.menu a, .menu a:visited{ 
+    text-decoration: none;
+    font-size: 2vw
+}
+
+.menu li:hover{
+    background-color: #0cc0df;
+    color: white;
+}
+
+.menu li{
+    list-style: none;
+}
+
+
+
+.menu{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    gap: .5%;
+    display: grid;
+    grid-template-rows: repeat(4,24.5%);
+    grid-template-columns: 99.5%;
+   
+    
+}
+
+
+.texto div{
+    display: grid;
+    grid-template-rows: 49% 49%;
+    grid-template-columns: 100%;    
+    gap: 2%;
+    overflow: hidden;
+    
+}
+.texto div img{
+    height: 100%;
+    width: 100%;
+}
+.escases p{
+    background-color: #847a4b;
+}
+
+.calidad p{
+    background-color: #85a65d;
+}
+
+.turismo p{
+    background-color: #97bdd4;
+}   
+
+.pueblos p{
+    background-color: #c68c5d;
+}
+
+.texto div p{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    font-size: 3vw;
+    padding: 2%;
+    margin: 0;
+    color: white;
+    text-align: left;
+}
+.imagen img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+ 
+}
