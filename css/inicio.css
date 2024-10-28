@@ -1,0 +1,15 @@
+form{
+    margin-top: auto;
+    padding:auto;
+    background-color:rgb(182, 182, 182);
+}
+.texto{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    gap: 2%;
+    overflow: hidden;
+}
+ul li input{
+    border: solid 1px black;
+}
